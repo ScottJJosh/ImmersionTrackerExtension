@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Subtitle Extractor</title>
+    <style>
+      #status {
+        margin-top: 10px;
+        font-weight: bold;
+      }
+      #subtitles {
+        margin-top: 10px;
+        max-height: 300px;
+        overflow-y: scroll;
+      }
+      #subtitles p {
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Subtitle Extractor</h1>
+    <button id="extractButton">Extract Subtitles</button>
+    <button id="downloadButton" disabled>Download Subtitles</button> <!-- New Download Button -->
+    <div id="status"></div>
+    
+    <script src="popup.js"></script>
+  </body>
+</html>
